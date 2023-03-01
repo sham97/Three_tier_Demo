@@ -1,0 +1,12 @@
+cidr = "10.0.0.0/16"
+pri_sub = [ "10.0.10.0/24" ,"10.0.20.0/24" ]
+pub_sub = [ "10.0.50.0/24"]
+vpc_name = "my-demo-VPC"
+azs = [ "us-east-1a","us-east-1b" ]
+db_sub = [ "10.0.111.0/24","10.0.112.0/24" ]
+create_databasesubnetgroup =  true
+subnet_route_table = true
+ec_type = "t2.micro"
+Public-ec2_name = "public-jump-host"
+Private-ec2_name = "private-EC2-demo"
+key = "Terraform_key"
